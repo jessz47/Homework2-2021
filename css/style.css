@@ -34,27 +34,26 @@ div#intro >p{
 img{
     width: 550px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto; 
 }
 
 div#red{
     background:#ff0000;
-    height: 150vw;
+    min-height: 150px;
     padding: 25px;
     text-align: right;
 
 }
 
 div#blue{
-    height: 150vw;
+    min-height: 150px;
     padding: 25px;
     background:#0000ff;
     text-align: left;
 }
 
 div#yellow{
-    height: 150vw;
+    min-height: 150px;
     padding: 25px;
     background:#FFFF00;
     text-align: right;
@@ -69,7 +68,7 @@ div#yellow > p{
 }
 
 div#green{
-    height: 150vw;
+    min-height: 150px;
     padding: 25px;
     background:#008000;
     text-align: left;
