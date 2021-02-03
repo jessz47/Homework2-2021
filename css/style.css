@@ -1,0 +1,81 @@
+body{
+
+    font-family: "Times New Roman";
+    background: #000000;
+    color: #ffffff; 
+
+}
+
+
+/*Make the h1 heading bigger with a bold font*/
+h1{
+    font-size: 64px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+div#intro >h2{
+    font-size: 32px; 
+    background: #000000;
+    color: #ffffff; 
+    text-shadow: 4px 4px 2px #808080 ;
+   
+
+}
+
+div#intro >p{
+    padding-top: 15px;
+    background: #000000;
+    color: #ffffff; 
+    font-size: 24px;
+}
+
+img{
+    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div#red{
+    background:#ff0000;
+    height: 150px;
+    padding: 25px;
+    text-align: right;
+}
+
+div#blue{
+    height: 150px;
+    padding: 25px;
+    background:#0000ff;
+    text-align: left;
+}
+
+div#yellow{
+    height: 150px;
+    padding: 25px;
+    background:#FFFF00;
+    text-align: right;
+}
+div#yellow > h2{
+    color: black;
+    text-shadow: 4px 4px 2px #c7e2c7
+
+}
+div#yellow > p{
+    color: black;
+}
+
+div#green{
+    height: 150px;
+    padding: 25px;
+    background:#008000;
+    text-align: left;
+}
+
+footer > p{
+    text-align: center;
+    padding: 0px 10px 10px 10px; 
+}
